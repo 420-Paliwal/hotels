@@ -51,6 +51,7 @@ router.get("/:taste", async (req,res) =>{
     }
 })
 
+// this function is for update the menu 
 router.put('/:id' , async (req, res)=>{
   try{
     const menuId = req.params.id;
